@@ -1,8 +1,7 @@
-[gd_scene load_steps=18 format=4 uid="uid://dpbslubldf3s1"]
+[gd_scene load_steps=17 format=4 uid="uid://dpbslubldf3s1"]
 
 [ext_resource type="Script" uid="uid://bk6h053tienjh" path="res://brackeys_platformer_assets/Scripts/game_manager.gd" id="1_lgjvw"]
 [ext_resource type="FontFile" uid="uid://g2cv85ipus2n" path="res://brackeys_platformer_assets/fonts/PixelOperator8.ttf" id="2_n8hyc"]
-[ext_resource type="PackedScene" uid="uid://cfjf4pemxt1ng" path="res://Teleport.tscn" id="3_eiivm"]
 [ext_resource type="PackedScene" uid="uid://bhrjc1jsqx317" path="res://Player.tscn" id="4_p4ecc"]
 [ext_resource type="PackedScene" uid="uid://depndnctfc0k5" path="res://Coin.tscn" id="5_4x2ic"]
 [ext_resource type="PackedScene" uid="uid://vosdod5g37p0" path="res://brackeys_platformer_assets/Scripts/kill_zone.tscn" id="6_576va"]
@@ -104,9 +103,6 @@ theme_override_font_sizes/font_size = 8
 text = "Collected Coins:"
 
 [node name="TeleportBottles" type="Node" parent="GameManager"]
-
-[node name="TeleportBottle" parent="GameManager/TeleportBottles" instance=ExtResource("3_eiivm")]
-position = Vector2(-50, 8)
 
 [node name="Player" parent="." instance=ExtResource("4_p4ecc")]
 position = Vector2(0, -7)

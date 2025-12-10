@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://tkws1d4gjfjc"]
 
-[ext_resource type="AudioStream" uid="uid://0c0m6ogpugya" path="res://brackeys_platformer_assets/music/time_for_adventure.mp3" id="1_kj5xs"]
+[ext_resource type="AudioStream" uid="uid://bua0kbykiyb1n" path="res://Level_1_Whimzy_Plaza_Loop.WAV" id="1_kj5xs"]
 
 [node name="Music" type="AudioStreamPlayer2D"]
 scale = Vector2(0.6800016, 0.91999966)
